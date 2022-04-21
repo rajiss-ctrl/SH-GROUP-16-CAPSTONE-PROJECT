@@ -6,10 +6,12 @@ function Contact(){
     return(
         <div>
             <nav>
-                <button> <Link to ="/">Home</Link></button>
-                <button> <Link to ="/about">About</Link></button>
-                <button> <Link to ="/product">Product</Link></button>
-                <button> <Link to ="/contact">Contact</Link></button>
+                <ul>
+                    <li> <Link to ="/">Home</Link></li>
+                    <li> <Link to ="/about">About</Link></li>
+                    <li> <Link to ="/product">Product</Link></li>
+                    <li> <Link to ="/contact">Contact</Link></li>
+                </ul>
             </nav>
             <h1> This is the Contact us page</h1>
         </div>
