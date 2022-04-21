@@ -1,19 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header.component';
-import Main from './components/Main.component';
-import Experience from './components/Experience';
-import Footer from './components/Footer.component';
+import Home from './pages/home.js';
+import About from './pages/about.js';
+import Product from './pages/product.js';
+import Contact from './pages/contact.js';
+import { 
+  BrowserRouter, 
+  Routes, 
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
     <div className='App'>
-     <div className="comoponents">
-       <Header/>
-       <Main/>
-       <Experience/>
-       <Footer/>
-     </div>
+      
+      <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/product' element={<Product/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+        </Routes>
+      </BrowserRouter>
+    
     </div>
   );
 }
