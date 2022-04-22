@@ -1,9 +1,8 @@
 import './App.css';
-import Navbar from './components/Navbar/navbar';
-import Home from './pages/home.js';
-import About from './pages/about.js';
-import Product from './pages/product.js';
-import Contact from './pages/contact.js';
+import Home from './Pages/Home.js';
+import About from './Pages/About.js';
+import Product from './Pages/Product.js';
+import Contact from './Pages/Contact.js';
 import { 
   BrowserRouter, 
   Routes, 
@@ -12,10 +11,7 @@ import {
 
 function App() {
   return (
-    <div className='App'>
-      <div>
-        <Navbar />
-      </div>
+    <div className='App'> 
       <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
@@ -24,7 +20,6 @@ function App() {
             <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
-    
     </div>
   );
 }

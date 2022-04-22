@@ -1,19 +1,18 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 
 function Contact(){
     return(
         <div>
-            <nav>
-                <ul>
-                    <li> <Link to ="/">Home</Link></li>
-                    <li> <Link to ="/about">About</Link></li>
-                    <li> <Link to ="/product">Product</Link></li>
-                    <li> <Link to ="/contact">Contact</Link></li>
-                </ul>
-            </nav>
-            <h1> This is the Contact us page</h1>
+            <Navbar/>
+
+            <div>
+                <h1> This is the Contact us page</h1>
+            </div>
+            
+            <Footer/>
         </div>
     )
 }
