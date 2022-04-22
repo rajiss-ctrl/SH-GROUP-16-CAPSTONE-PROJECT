@@ -1,1 +1,28 @@
 /* Css for button */
+
+.submit-button{
+    background:#161616;
+    color:#ffffff;
+    font-size:20px;
+    padding:5px;
+    border:1px solid none;
+    border-radius:10px;
+}
+
+.order-button{
+    background:#FE7A15;
+    color:#ffffff;
+    font-size:16px;
+    padding:5px;
+    border:none;
+    border-radius:10px;
+}
+
+.big-button{
+    background:#FE7A15;
+    color:#ffffff;
+    font-size:20px;
+    padding:23px 28px 23px 28px;
+    border:none;
+    border-radius:10px;
+}

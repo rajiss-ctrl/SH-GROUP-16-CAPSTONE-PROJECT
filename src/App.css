@@ -2,15 +2,13 @@
 
 *{
 
-  margin: none;
-  padding: none;
+  margin: 0;
   box-sizing: border-box;
 
 }
 body{
   width: 100%;
   color: #4a4949;
-
   font-family: 'Poppins',
   sans-serif;
 }
