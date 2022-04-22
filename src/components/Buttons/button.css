@@ -4,7 +4,7 @@
     background:#161616;
     color:#ffffff;
     font-size:20px;
-    padding:5px;
+    padding:13px 87px 13px 87px;
     border:1px solid none;
     border-radius:10px;
 }
@@ -13,9 +13,9 @@
     background:#FE7A15;
     color:#ffffff;
     font-size:16px;
-    padding:5px;
+    padding:5px 12px 5px 11px;
     border:none;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .big-button{
