@@ -1,13 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar/navbar';
+import Navbar from '../components/Navbar/Navbar';
+import BigButton from '../components/Buttons/BigButton';
+import Footer from '../components/Footer/Footer'
 
 function Home(){
     return(
         <div>
-           <div>
-              <Navbar />
-           </div>
-           <div className='content'>
+            <Navbar />
+
+            <div className='content'>
                <div>
                   <img src='' alt='' classname='' />
                </div>
@@ -15,8 +16,12 @@ function Home(){
                  <h2>Order for Tasty, Spicy and Fresh Food</h2>
                  <p>from the comfort of your home</p>
                </div>
-           </div>
-           <button>Place Order</button>
+
+               <BigButton props ={"Place Order"} />
+            </div>
+
+            <Footer/>
+           
         </div>
     )
 }

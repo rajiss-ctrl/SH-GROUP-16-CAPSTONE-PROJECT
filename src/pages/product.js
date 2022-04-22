@@ -1,18 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+
 
 function Product(){
     return(
         <div>
-            <nav>
-                <ul>
-                    <li> <Link to ="/">Home</Link></li>
-                    <li> <Link to ="/about">About</Link></li>
-                    <li> <Link to ="/product">Product</Link></li>
-                    <li> <Link to ="/contact">Contact</Link></li>
-                </ul>
-            </nav>
+            <Navbar/>
             <h1> This is the Product Page</h1>
+            <Footer/>
         </div>
     )
 }

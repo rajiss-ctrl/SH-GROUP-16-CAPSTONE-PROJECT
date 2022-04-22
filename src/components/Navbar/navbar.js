@@ -1,10 +1,10 @@
 import React from 'react'
-import './navbar.css'
+import './Navbar.css'
 import {Link} from 'react-router-dom';
 
-function navbar() {
+function Navbar() {
     return (
-        <div className='navbar'>
+        <div className='Navbar'>
             <div className='logo'>
                 <img src='FoodieZonelogo.png' alt='FoodieZone' />
             </div>
@@ -20,4 +20,4 @@ function navbar() {
     )
 }
 
-export default navbar
+export default Navbar
