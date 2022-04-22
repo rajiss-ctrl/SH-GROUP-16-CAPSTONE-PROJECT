@@ -1,7 +1,7 @@
 /* Css for Footer */
 .footer{
     bottom: 0;
-    position: static;
+    position: fixed;
     width: 100%;
     background:#FE7A15;
     color:#ffffff;
