@@ -8,12 +8,12 @@ function Home(){
               <Navbar />
            </div>
            <div className='content'>
+               <div>
+                  <img src='' alt='' classname='' />
+               </div>
                <div className='fa content'>
                  <h2>Order for Tasty, Spicy and Fresh Food</h2>
                  <p>from the comfort of your home</p>
-               </div>
-               <div>
-                  <img src='' alt='' classname='' />
                </div>
            </div>
            <button>Place Order</button>
