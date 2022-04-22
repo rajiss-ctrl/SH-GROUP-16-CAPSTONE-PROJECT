@@ -1,18 +1,22 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Navbar from '../components/Navbar/navbar';
 
 function Home(){
     return(
         <div>
-            <nav>
-                <ul>
-                    <li> <Link to ="/">Home</Link></li>
-                    <li> <Link to ="/about">About</Link></li>
-                    <li> <Link to ="/product">Product</Link></li>
-                    <li> <Link to ="/contact">Contact</Link></li>
-                </ul>
-            </nav>
-            <h1> This is the HomePage</h1>
+           <div>
+              <Navbar />
+           </div>
+           <div className='content'>
+               <div className='fa content'>
+                 <h2>Order for Tasty, Spicy and Fresh Food</h2>
+                 <p>from the comfort of your home</p>
+               </div>
+               <div>
+                  <img src='' alt='' classname='' />
+               </div>
+           </div>
+           <button>Place Order</button>
         </div>
     )
 }

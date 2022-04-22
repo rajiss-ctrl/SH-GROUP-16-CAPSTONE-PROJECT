@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './components/Navbar/navbar';
 import Home from './pages/home.js';
 import About from './pages/about.js';
 import Product from './pages/product.js';
@@ -12,7 +13,9 @@ import {
 function App() {
   return (
     <div className='App'>
-      
+      <div>
+        <Navbar />
+      </div>
       <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
