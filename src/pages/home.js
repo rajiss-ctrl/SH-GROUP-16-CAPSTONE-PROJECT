@@ -5,7 +5,7 @@ import Footer from '../components/Footer/Footer'
 
 function Home(){
     return(
-        <div>
+        <body>
             <Navbar />
 
             <div className='content'>
@@ -21,8 +21,9 @@ function Home(){
             </div>
 
             <Footer/>
+        </body>
+            
            
-        </div>
     )
 }
 

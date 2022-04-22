@@ -3,8 +3,8 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div>
-        Copyright@copy;FoodieZone. All Rights Reserved
+    <div className="footer">
+        Copyright&copy;FoodieZone By SH-ReactJS-GRP-16. All Rights Reserved
     </div>
   );
 }
