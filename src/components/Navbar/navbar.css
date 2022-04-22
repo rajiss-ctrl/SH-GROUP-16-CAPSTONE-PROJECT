@@ -1,20 +1,47 @@
-/* Css for Navbar */
-
-/* .Navbar{
-    background: #161616;
-    height: 150px;
-    color:ffffff;
-    display:flex;
+.Navbar{
+    width: 100%;
+    padding: 70px 70px 0 70px;
 }
 
-.logo{
-    float: left;
-}
-.logo img{
-    height: 63px;
+nav.Navbar-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.Navbar-links{
-    right:0;
-    float: right;
-} */
+nav img{
+    width: 220px;
+}
+
+.Navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.Navbar nav ul li a {
+    text-decoration: none;
+    width: 63px;
+    height: 24px;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.Navbar nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FE7A15;;
+    text-decoration-thickness: 6px;
+}
