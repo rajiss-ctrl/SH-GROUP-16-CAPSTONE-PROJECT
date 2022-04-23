@@ -5,15 +5,15 @@ import Footer from '../components/Footer/Footer';
 
 function Contact(){
     return(
-        <div>
+        <body>
             <Navbar/>
 
             <div>
                 <h1> This is the Contact us page</h1>
             </div>
-            
+
             <Footer/>
-        </div>
+        </body>
     )
 }
 

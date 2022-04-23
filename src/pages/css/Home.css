@@ -1,0 +1,46 @@
+.container{
+    background:  #161616;
+}
+header{
+    width: 100%;
+    padding: 70px;
+    margin:100px 0 120px 0;
+}
+header .heading-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    
+}
+header .heading-wrapper .content-heading{
+    width: 50%;
+    line-height: 5px;
+    height: 120px;
+}
+header .heading-wrapper img{
+    width: 40%;
+}
+
+header .content-heading h2{
+    
+    width: 600px;
+    height: 155px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    
+    color: #FE7A15;
+}
+
+header .content-heading p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: -20px;
+}
+header .content-heading .home-btn{
+    margin-top: 100px;
+}
