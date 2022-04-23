@@ -1,8 +1,8 @@
 import './App.css';
-import Home from './Pages/Home.js';
-import About from './Pages/About.js';
-import Product from './Pages/Product.js';
-import Contact from './Pages/Contact.js';
+import Home from './pages/home.js';
+import About from './pages/about.js';
+import Product from './pages/product.js';
+import Contact from './pages/contact.js';
 import { 
   BrowserRouter, 
   Routes, 

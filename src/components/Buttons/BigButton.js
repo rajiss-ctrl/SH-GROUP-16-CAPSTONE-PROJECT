@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css'
+import './button.css'
 
 export default function BigButton({props}) {
   return (
