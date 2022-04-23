@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
-import Product from './pages/product.js';
+import Product from './pages/Product/product.js';
 import Contact from './pages/Contact.js';
 import { 
   BrowserRouter, 
