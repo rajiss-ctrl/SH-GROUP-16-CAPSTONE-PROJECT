@@ -1,0 +1,19 @@
+
+.contact {
+ padding: 70px;
+ background-color: whitesmoke;
+}
+
+.contact h3{
+    color: #0000;
+	padding: 15px;
+    font-style: normal;
+    text-align: left;
+}
+
+.contact p{
+    color: #0000;
+	padding: 15px;
+    font-style: normal;
+    text-align: left;
+}
