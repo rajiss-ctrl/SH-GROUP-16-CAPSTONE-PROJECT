@@ -1,24 +1,23 @@
-import React from 'react'
-import './Navbar.css'
-import {Link} from 'react-router-dom';
+import React from 'react';
+import './navbar.css';
+import { NavLink, Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <div className='Navbar'>
-            
             <nav className="Navbar-links">
-                <div className="logo">
-                     <img src='FoodieZonelogo.png' alt='FoodieZone' />
-                </div>
+                <Link to='/' className="logo">
+                    <img src='FoodieZonelogo.png' alt='FoodieZone' />
+                </Link>
                 <ul>
-                    <li> <Link to ="/">Home</Link></li>
-                    <li> <Link to ="/about">About</Link></li>
-                    <li> <Link to ="/product">Product</Link></li>
-                    <li> <Link to ="/contact">Contact</Link></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active" : ""} to="/">Home</NavLink></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active" : ""} to="/about">About</NavLink></li>
+                    <li> <Link to="/product">Product</Link></li>
+                    <li> <NavLink className={(navData) => navData.isActive ? "active" : ""} to="/contact">Contact</NavLink></li>
                 </ul>
-            </nav> 
+            </nav>
         </div>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
