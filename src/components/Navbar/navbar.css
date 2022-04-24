@@ -1,6 +1,7 @@
 .Navbar{
     width: 100%;
     padding: 70px 70px 0 70px;
+    background:  #161616;
 }
 
 nav.Navbar-links{
@@ -42,6 +43,6 @@ nav img{
 
 .Navbar nav ul li a:hover{
     text-decoration: underline;
-    text-decoration-color: #FE7A15;;
+    text-decoration-color: #FE7A15;
     text-decoration-thickness: 6px;
 }

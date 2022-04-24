@@ -27,8 +27,8 @@ const foods = [
     // {id: 14, foodname: 'fried rice', image: friedRice, price: '$10'},
     // {id: 15, foodname: 'fried rice', image: friedRice, price: '$10'},
     // {id: 16, foodname: 'fried rice', image: friedRice, price: '$10'},
-    // ]
-}
+    // 
+]
 
 function Product(){
     return(

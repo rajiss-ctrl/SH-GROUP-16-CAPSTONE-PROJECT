@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:wght@500;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Poppins:wght@500;700&display=swap'); */
+.about-container {
+  display: flex;
+}
+body{
+  min-height: 100vh;
+  min-width: 100%;
+  
+}
+.content {
+  background-color: #fe7a15;
+  height: 370px;
+  width: 350px;
+}
+.content h2 {
+  text-indent: 10%;
+  padding-top: 25%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+.content img {
+  position: absolute;
+  width: 25%;
+  height: 35%;
+  left: 10%;
+  top: 37%;
+}
+.text {
+  
+  position: absolute;
+  width: 20%;
+  height: 35%;
+  left: 50%;
+  top: 45%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
