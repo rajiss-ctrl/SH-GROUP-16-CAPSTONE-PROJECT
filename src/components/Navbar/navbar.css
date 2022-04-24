@@ -1,0 +1,51 @@
+.Navbar {
+	width: 100%;
+	padding: 0px 70px 0 70px;
+	position: fixed;
+	top: 0;
+	background-color: #161616;
+	z-index: 999;
+}
+
+.active {
+	border-bottom: 6px solid #fe7a15;
+}
+
+nav.Navbar-links {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	width: 150px;
+	margin-top: 10px;
+}
+
+.Navbar nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Navbar nav ul li {
+	list-style: none;
+	margin-left: 20px;
+}
+.Navbar nav ul li a {
+	text-decoration: none;
+	width: 63px;
+	height: 24px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #ffffff;
+}
+
+.Navbar nav ul li a:hover {
+	color: #fe7a15;
+}

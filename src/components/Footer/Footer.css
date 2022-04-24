@@ -1,0 +1,13 @@
+/* Css for Footer */
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background:#FE7A15;
+    color:#ffffff;
+    font-size:20px;
+    text-align:center;
+    padding-top: 32px;
+    padding-bottom: 44px;
+
+}
