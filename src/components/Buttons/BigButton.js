@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.css';
+import './Button.css';
 
 
 // This is the component to be used for the {Place Order} and {View Order} Buttons
