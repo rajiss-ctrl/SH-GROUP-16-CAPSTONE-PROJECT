@@ -13,7 +13,7 @@ function About() {
                 </div>
                 <div className='about-content'>
                     <p>
-                        FoodieZone is a Restauratant that is situated at the heart of Lagos. It is well knows for its tasty,spicy and fresh food. <br /><br />
+                        FoodieZone is a Restauratant that is situated at the heart of Lagos. It is well known for its tasty,spicy and fresh food. <br /><br />
                         Customers within the state can place orders for meals and have it delivered within 50 minutes-depending on the location
                     </p>
                 </div>
@@ -24,3 +24,6 @@ function About() {
 }
 
 export default About;
+
+
+
