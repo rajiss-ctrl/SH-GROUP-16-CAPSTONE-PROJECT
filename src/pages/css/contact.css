@@ -1,19 +1,197 @@
-
-.contact {
- padding: 70px;
- background-color: whitesmoke;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.contact h3{
-    color: #0000;
-	padding: 15px;
-    font-style: normal;
-    text-align: left;
+.contact-header {
+    color: #000000;
+    /* padding: 25px; */
+    /* margin-left: 30px; */
+    /* text-align: center; */
 }
 
-.contact p{
-    color: #0000;
-	padding: 15px;
-    font-style: normal;
-    text-align: left;
+/* form section */
+.contact{
+    width: 510px;
+}
+.form {
+    width: 510;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: auto;
+    margin-top: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+
+.name {
+    width: 150px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name .secondName {
+    padding-left: 10px;
+}
+
+.first-name {
+    position: relative;
+    /* line-height: 40px; */
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    border: 1px solid #000000;  
+} 
+
+.second-name {
+    position: relative;
+    /* line-height: 40px; */
+
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 10px;
+    border: 1px solid #000000;
+}
+ .label {
+     font-size: 18px;
+     font-weight: 400;
+     color: black;
+ }
+
+ .phone-input {
+    border-radius: 6px;
+    width: 510px;
+    height: 40px;
+    border: 1px solid #000000;
+    background: transparent;
+    letter-spacing: 1px;
+    padding: 0 5px;
+ }
+
+.email-input {
+    border-radius: 6px;
+    width: 510px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 0 5px;
+}
+
+textarea {
+    width: 510px;
+    border-radius: 6px;
+    padding: 0 5px;
+    border: 1px solid #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.con-message{
+    margin-top: 30px;
+} 
+
+.form input:focus{
+	outline: none;
+    font-family: Arial;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+	border-top: none;
+	border-right:none;
+	border-left: none;
+}
+
+.textarea:focus{
+	outline: none;
+    font-family: Arial;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+	border-top: none;
+	border-right:none;
+	border-left: none;
+}
+
+.bttn {
+    position: relative;
+    margin-left: 433px;
+    margin-top: 10px;
+    right: 0;
+    justify-content: right;
+    text-align: right;
+    padding: 6px 15px;
+    border-radius: 6px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+
+/* map section */
+
+.location-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 5rem 0;
+    border-radius: 3rem;
+   
+}
+
+.location-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2.5px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.location-card img {
+    width: 300px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-content {
+    width: 300px;
+    padding: 2px 16px;
+}
+
+/* follow us section */
+
+.follow-us{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 5rem;
+    margin: 0 3rem;
+    margin-bottom: 1rem;
+}
+
+.follow-us h2{
+    padding: 0 12px;
+}
+
+.fbicon{
+    margin: 0 12px; 
+    fill: #3b5998;  
+}
+.twicon{
+    margin: 0 12px; 
+    fill: #00acee;  
+}
+.insicon{
+    margin: 0 12px; 
+    fill: #833AB4;  
+}
+.waicon{
+    margin: 0 12px; 
+    fill: 	#34B7F1;  
 }

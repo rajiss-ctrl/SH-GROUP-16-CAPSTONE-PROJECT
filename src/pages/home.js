@@ -16,17 +16,19 @@ function Home() {
 
                     </div>
 
-
-                    <img src={Food1} alt='food' />
-
-                </div>
-
-
+                
+                  <img src={Food1} alt='food' />
+            
+                </div>               
             </header>
+            <div>
+           {/* <Footer/> */}
+           </div>
         </div>
 
-
-    );
+            
+           
+    )
 }
 
 export default Home;
