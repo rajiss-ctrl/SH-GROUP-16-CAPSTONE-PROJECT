@@ -1,0 +1,59 @@
+.wrapper{
+overflow: hidden;
+height: 100vh;
+}
+
+div .about-container{
+   margin-top: 80px;
+}
+.about-container,.img-parent,.about-content{
+    width: 100%;
+}
+
+.img-parent img{
+    width: 80%;
+    margin-bottom: -50px; 
+    
+}
+.about-content{
+    padding: -20px;
+    line-height: 17px;
+    
+}
+
+@media screen and (max-width:1024px){
+    .about-content {
+        padding: 20px;
+
+    }
+    .img-parent img {
+        margin-top: -50px;
+    
+    }
+    .about-content p{
+    margin-top: -40px;
+
+    }
+   
+
+}
+@media screen and (max-width:912px){
+.img-parent {
+    padding: 20px;
+}
+}
+
+@media screen and (max-width:768px){
+    .img-parent img {
+        margin-top: 50px;
+    
+    }
+    
+    .about-content p {
+        margin-top: 40px;
+    
+    }
+    .img-parent{
+        padding: 20px;
+    }
+}
