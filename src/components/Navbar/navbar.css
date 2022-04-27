@@ -95,7 +95,10 @@ ul.barMenu li{
 	font-size: 30px;
 	position: absolute;
 	top: 20px;
-	right: 10px;
+	right: 20px;
+}
+.logo{
+	margin-left: 20px;
 }
 }
 

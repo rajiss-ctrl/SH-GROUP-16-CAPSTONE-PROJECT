@@ -1,7 +1,6 @@
 /* Css for Footer */
 .footer{
     bottom: 0;
-    position: relative;
     width: 100%;
     background:#FE7A15;
     color:#ffffff;
@@ -11,3 +10,9 @@
     padding-bottom: 44px;
 
 }
+    @media screen and (max-width:540px){
+        .footer{
+        font-size: 14px;
+        padding: 15px;
+        }
+    }

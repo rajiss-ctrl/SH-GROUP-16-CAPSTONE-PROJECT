@@ -8,8 +8,10 @@ function Home() {
             <header>
                 <div className='heading-wrapper'>
                     <div className='content-heading'>
-                        <h2>Order for Tasty, Spicy and Fresh Food</h2>
+                       <div className="content-wrapper">
+                            <h2>Order for Tasty, Spicy and Fresh Food</h2>
                         <p>from the comfort of your home</p>
+                       </div>
                         <div className="home-btn">
                             <BigButton props={"Place Order"} />
                         </div>
@@ -17,12 +19,12 @@ function Home() {
                     </div>
 
                 
-                  <img src={Food1} alt='food' />
+                   <img src={Food1} alt='food' /> 
             
                 </div>               
             </header>
             <div>
-           {/* <Footer/> */}
+           {/* <Footer/>  */}
            </div>
         </div>
 
