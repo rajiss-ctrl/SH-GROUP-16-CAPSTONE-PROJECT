@@ -5,7 +5,7 @@ import "./css/about.css";
 
 function About() {
     return (
-        <div>
+        <div className='wrapper'>
             <div className='about-container'>
                 <div className="img-parent">
                     <h2> About Us</h2>

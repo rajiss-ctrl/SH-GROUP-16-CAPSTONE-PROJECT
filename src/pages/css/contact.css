@@ -5,6 +5,7 @@
 }
 
 .contact-header {
+    width: 100%;
     color: #000000;
     /* padding: 25px; */
     /* margin-left: 30px; */
@@ -194,4 +195,123 @@ textarea {
 .waicon{
     margin: 0 12px; 
     fill: 	#34B7F1;  
+}
+
+@media screen and (max-width:768px){
+    .contact-header {
+        padding: 20px;
+  
+    }
+    .form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+     form{
+        width: 80%;
+      
+    }
+    .name {
+        width: 100%;
+        display: grid;
+        place-content: center;
+        display: block;
+        
+    }
+    
+    .secondName {
+        padding-left:0 !important ;
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+    
+    .first-name {
+        /* line-height: 40px; */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+       
+    }
+
+    input{
+        width: 100%;
+    }
+    
+    .secondName input,.first-name input{
+        width: 100%;
+        
+    }
+    .contact{
+        width: 100%;
+    }
+    /* .second-name {
+        
+    
+    
+        width: 250px;
+        height: 40px;
+        border-radius: 6px;
+        padding: 0 10px;
+        border: 1px solid #000000;
+    } */
+    
+    .label {
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .phone-input {
+        
+        width: 100%;
+        
+        padding: 0;
+    }
+    
+    .email-input {
+        
+        width: 100%;
+        
+        padding: 0;
+    }
+    
+    textarea {
+        width: 100%;
+        
+    }
+    .bttn {
+        position: relative;
+        margin:20px  0 0 0;
+        right: 0;
+        justify-content: right;
+        text-align: right;
+        padding:10px;
+        
+    }
+    
+    .con-message {
+        margin-top: 30px;
+    }
+
+    .location-wrapper{
+        width: 100%;
+        padding: 0;
+        margin: 20px 0 0 0;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .location-card{
+        
+        flex-direction: column;
+    }
+    .follow-us{
+        font-size: 14px;
+    }
+    
 }
